@@ -1,17 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import App from './components/App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+root.render(<App />);
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+/* First level: реализуйте React  приложение, которое отображает товары, загруженные по ссылке https://dummyjson.com/products.
+Должна быть возможность удалить товар по нажатию на кнопку. 
+Внизу должен быть расчет общего количества товаров, цены без скидки и цены со скидкой.
+Для лучшего понимания итогового результата вы можете ориентироваться на макет https://www.figma.com/file/U9FC0rXCjqTTDhRvHzF8ZT/Products?node-id=0%3A1&t=5vWebASvPbXh1Dg9-1 */

@@ -1,0 +1,25 @@
+.card {
+	width: 250px;
+	padding: 20px;
+	background-color: white;
+	border-radius: 25px 5px 25px 5px;
+	border: 1px solid rgb(235, 229, 229);
+	box-shadow: 5px 5px 5px 0.3px gray;
+	font-family: sans-serif;
+}
+
+.card img {
+	width: 100%;
+}
+.card button{
+	background-color: #7598a6;
+	border: none;
+	padding:7px  15px;
+	border-radius: 15px 5px 15px 5px;
+	box-shadow: 5px 5px 5px 0.2px rgb(221, 220, 220);
+	
+}
+.containerBut{
+	display: flex;
+	justify-content: center;
+}
